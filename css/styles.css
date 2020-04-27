@@ -1,0 +1,181 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p{
+  color: #8F8F8F;
+  font-weight: 20px;
+}
+
+
+.coloredSec{
+  background-color: #FF4C68;
+  color: white;
+}
+
+
+.whiteSec{
+  background-color: white;
+
+}
+
+.downloadbtn {
+  margin: 3% 5% 3% 0;
+}
+.bigHeading,.ids{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title {
+
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7% ;
+}
+.dogImg {
+  transform: rotate(25deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Feautures section */
+#features {
+  position: relative;
+/* because in the flowchart, if one below the other in HTML flow and both are positioned,
+automatically the second HTML feature will be above
+  z-index: 1; */
+}
+
+/* above method is better  .feauturesR{
+  padding-top: 100px;
+} */
+
+.h3Features {
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68 !important;
+}
+
+/* Easier to give them all the same class name since same features are given to all of them.fa-bullseye{
+  color: #EF8172;
+}
+.fa-bullseye:hover{
+  color: #FF4C68 !important;
+}
+.fa-heart{
+  text-align: center;
+    color: #EF8172;
+}
+.fa-heart:hover{
+  color: #FF4C68 !important;
+} */
+
+
+/* Testimonials section */
+#testimonials {
+  background-color: #EF8172;
+}
+.tesImg{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.presslogo{
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+/* so that controllers are not close to text */
+/* .carousel-item{
+  padding: 7% 15%;
+} */
+
+
+/* Pricing section */
+#pricing{
+  padding: 100px;
+}
+
+.pricingCol{
+  padding: 3% 2%;
+}
+.pbtn{
+margin-top: 10%;}
+
+
+@media (max-width: 880px) {
+  .dogImg {
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* Call to action section */
+#cta{
+
+}
+
+/* Footer section */
+#footer{
+  padding: 7% 15% 0%;
+}
+
+.sn{
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+  color: black;
+}
